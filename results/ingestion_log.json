@@ -1,0 +1,45 @@
+{
+  "manifest_path": "data\\manifest.json",
+  "total_documents": 3,
+  "total_physical_pages": 159,
+  "total_valid_content_pages": 89,
+  "total_valid_normalized_chars": 255447,
+  "documents": [
+    {
+      "document_id": "nist-ir-8312",
+      "local_path": "starter/data/NIST.IR.8312.pdf",
+      "physical_pages": 43,
+      "valid_content_pages": 22,
+      "excluded_pages_count": 21,
+      "empty_pages": [],
+      "error_pages": [],
+      "valid_normalized_chars": 74399,
+      "year": 2021,
+      "category": "explainability"
+    },
+    {
+      "document_id": "nist-sp-1270",
+      "local_path": "starter/data/NIST.SP.1270.pdf",
+      "physical_pages": 86,
+      "valid_content_pages": 48,
+      "excluded_pages_count": 38,
+      "empty_pages": [],
+      "error_pages": [],
+      "valid_normalized_chars": 131549,
+      "year": 2022,
+      "category": "bias_management"
+    },
+    {
+      "document_id": "nist-sp-800-218a",
+      "local_path": "starter/data/NIST.SP.800-218A.pdf",
+      "physical_pages": 30,
+      "valid_content_pages": 19,
+      "excluded_pages_count": 11,
+      "empty_pages": [],
+      "error_pages": [],
+      "valid_normalized_chars": 49499,
+      "year": 2024,
+      "category": "genai_security"
+    }
+  ]
+}

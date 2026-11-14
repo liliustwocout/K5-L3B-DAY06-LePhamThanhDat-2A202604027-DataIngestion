@@ -1,0 +1,260 @@
+{
+  "run_timestamp": "2026-11-14T03:17:41.493700+00:00",
+  "embedding_model": "gemini-embedding-001",
+  "embedding_dimensions": 768,
+  "vector_store": "PostgreSQL 16 + pgvector 0.8.7 (exact cosine distance <=>)",
+  "query_embed_seconds": 0.0,
+  "embedder_cumulative_stats": {
+    "api_calls": 30,
+    "api_texts_embedded": 862,
+    "cache_hits": 381,
+    "total_chars_sent": 513110,
+    "api_seconds": 50.41634759999988,
+    "rate_limit_waits": 1
+  },
+  "idempotency_check": {
+    "strategy_checked": "A",
+    "count_after_first_upsert": 605,
+    "count_after_second_upsert": 605,
+    "no_duplicates_verified": true,
+    "second_upsert_stats": {
+      "deleted_obsolete": 0,
+      "upserted": 605
+    },
+    "obsolete_cleanup_probe": {
+      "before_prune_count": 2,
+      "after_prune_count": 1,
+      "deleted_obsolete": 1,
+      "obsolete_pruned_verified": true
+    }
+  },
+  "strategy_stats": {
+    "A": {
+      "config": {
+        "strategy": "A",
+        "chunking": "fixed_size",
+        "chunk_size": 500,
+        "overlap": 50,
+        "use_filter": false,
+        "description": "Fixed-size 500-char windows with 50-char overlap, no metadata filter."
+      },
+      "chunk_stats": {
+        "count": 605,
+        "total_chars": 281097,
+        "min": 55,
+        "p50": 500,
+        "mean": 464.6,
+        "p95": 500,
+        "max": 500
+      },
+      "upsert_info": {
+        "deleted_obsolete": 0,
+        "upserted": 605
+      },
+      "stored_row_count": 605,
+      "timing_seconds": {
+        "chunking": 0.0213,
+        "embedding": 391.4684,
+        "db_upsert": 0.976,
+        "ingest_total": 392.4657,
+        "retrieval_24q": 0.8655
+      },
+      "embedding_calls_delta": 19,
+      "embedding_texts_api_delta": 555,
+      "embedding_cache_hits_delta": 50
+    },
+    "B": {
+      "config": {
+        "strategy": "B",
+        "chunking": "by_paragraph",
+        "chunk_size": 1200,
+        "overlap": 0,
+        "use_filter": false,
+        "description": "Paragraph-aware chunking up to 1200 chars, no metadata filter."
+      },
+      "chunk_stats": {
+        "count": 307,
+        "total_chars": 255796,
+        "min": 28,
+        "p50": 928,
+        "mean": 833.2,
+        "p95": 1180,
+        "max": 1200
+      },
+      "upsert_info": {
+        "deleted_obsolete": 0,
+        "upserted": 307
+      },
+      "stored_row_count": 307,
+      "timing_seconds": {
+        "chunking": 0.0256,
+        "embedding": 242.1991,
+        "db_upsert": 0.1482,
+        "ingest_total": 242.3729,
+        "retrieval_24q": 0.562
+      },
+      "embedding_calls_delta": 11,
+      "embedding_texts_api_delta": 307,
+      "embedding_cache_hits_delta": 0
+    },
+    "C": {
+      "config": {
+        "strategy": "C",
+        "chunking": "by_paragraph",
+        "chunk_size": 1200,
+        "overlap": 0,
+        "use_filter": true,
+        "description": "Paragraph-aware chunking up to 1200 chars + SQL metadata filter when query specifies filter."
+      },
+      "chunk_stats": {
+        "count": 307,
+        "total_chars": 255796,
+        "min": 28,
+        "p50": 928,
+        "mean": 833.2,
+        "p95": 1180,
+        "max": 1200
+      },
+      "upsert_info": {
+        "deleted_obsolete": 0,
+        "upserted": 307
+      },
+      "stored_row_count": 307,
+      "timing_seconds": {
+        "chunking": 0.0103,
+        "embedding": 0.0006,
+        "db_upsert": 0.1507,
+        "ingest_total": 0.1616,
+        "retrieval_24q": 0.6173
+      },
+      "embedding_calls_delta": 0,
+      "embedding_texts_api_delta": 0,
+      "embedding_cache_hits_delta": 307
+    }
+  },
+  "retrieval_metrics": {
+    "A": {
+      "dev": {
+        "n": 18,
+        "hit1_count": 11,
+        "hit1_rate": 0.6111,
+        "hit3_count": 13,
+        "hit3_rate": 0.7222,
+        "page_hit3_count": 18,
+        "multi_chunk_hit3_count": 13,
+        "metadata_valid_hits": 54,
+        "metadata_total_hits": 54,
+        "filter_compliant_queries": 5,
+        "filter_total_queries": 5
+      },
+      "test": {
+        "n": 6,
+        "hit1_count": 4,
+        "hit1_rate": 0.6667,
+        "hit3_count": 5,
+        "hit3_rate": 0.8333,
+        "page_hit3_count": 6,
+        "multi_chunk_hit3_count": 5,
+        "metadata_valid_hits": 18,
+        "metadata_total_hits": 18,
+        "filter_compliant_queries": 2,
+        "filter_total_queries": 2
+      },
+      "all": {
+        "n": 24,
+        "hit1_count": 15,
+        "hit1_rate": 0.625,
+        "hit3_count": 18,
+        "hit3_rate": 0.75,
+        "page_hit3_count": 24,
+        "multi_chunk_hit3_count": 18,
+        "metadata_valid_hits": 72,
+        "metadata_total_hits": 72,
+        "filter_compliant_queries": 7,
+        "filter_total_queries": 7
+      }
+    },
+    "B": {
+      "dev": {
+        "n": 18,
+        "hit1_count": 12,
+        "hit1_rate": 0.6667,
+        "hit3_count": 15,
+        "hit3_rate": 0.8333,
+        "page_hit3_count": 17,
+        "multi_chunk_hit3_count": 15,
+        "metadata_valid_hits": 54,
+        "metadata_total_hits": 54,
+        "filter_compliant_queries": 5,
+        "filter_total_queries": 5
+      },
+      "test": {
+        "n": 6,
+        "hit1_count": 5,
+        "hit1_rate": 0.8333,
+        "hit3_count": 6,
+        "hit3_rate": 1.0,
+        "page_hit3_count": 6,
+        "multi_chunk_hit3_count": 6,
+        "metadata_valid_hits": 18,
+        "metadata_total_hits": 18,
+        "filter_compliant_queries": 2,
+        "filter_total_queries": 2
+      },
+      "all": {
+        "n": 24,
+        "hit1_count": 17,
+        "hit1_rate": 0.7083,
+        "hit3_count": 21,
+        "hit3_rate": 0.875,
+        "page_hit3_count": 23,
+        "multi_chunk_hit3_count": 21,
+        "metadata_valid_hits": 72,
+        "metadata_total_hits": 72,
+        "filter_compliant_queries": 7,
+        "filter_total_queries": 7
+      }
+    },
+    "C": {
+      "dev": {
+        "n": 18,
+        "hit1_count": 12,
+        "hit1_rate": 0.6667,
+        "hit3_count": 15,
+        "hit3_rate": 0.8333,
+        "page_hit3_count": 17,
+        "multi_chunk_hit3_count": 15,
+        "metadata_valid_hits": 54,
+        "metadata_total_hits": 54,
+        "filter_compliant_queries": 5,
+        "filter_total_queries": 5
+      },
+      "test": {
+        "n": 6,
+        "hit1_count": 5,
+        "hit1_rate": 0.8333,
+        "hit3_count": 6,
+        "hit3_rate": 1.0,
+        "page_hit3_count": 6,
+        "multi_chunk_hit3_count": 6,
+        "metadata_valid_hits": 18,
+        "metadata_total_hits": 18,
+        "filter_compliant_queries": 2,
+        "filter_total_queries": 2
+      },
+      "all": {
+        "n": 24,
+        "hit1_count": 17,
+        "hit1_rate": 0.7083,
+        "hit3_count": 21,
+        "hit3_rate": 0.875,
+        "page_hit3_count": 23,
+        "multi_chunk_hit3_count": 21,
+        "metadata_valid_hits": 72,
+        "metadata_total_hits": 72,
+        "filter_compliant_queries": 7,
+        "filter_total_queries": 7
+      }
+    }
+  }
+}

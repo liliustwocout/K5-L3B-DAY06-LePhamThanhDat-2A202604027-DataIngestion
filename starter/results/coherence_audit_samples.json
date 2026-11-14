@@ -1,0 +1,312 @@
+[
+  {
+    "sample_id": "coh_01",
+    "document_id": "nist-ir-8312",
+    "page": 8,
+    "strategies": {
+      "A": {
+        "chunk_id": "nist-ir-8312:p008:fixed:000",
+        "chunk_char_len": 500,
+        "total_chunks_on_page": 8,
+        "text": "1. Introduction When the father of one of the authors was diagnosed with cancer, they went to speak with his oncologist. The oncologist described the state of his cancer and went through strategies and options for treatment. The oncologist answered the father’s questions and explained his role in his treatment. The author’s father felt he was a partner and had some control. The father trusted the treatment because he received a meaningful and understandable explana- tion about the process. The d",
+        "manual_score_0_to_2": null,
+        "manual_reason": ""
+      },
+      "B": {
+        "chunk_id": "nist-ir-8312:p008:para:000",
+        "chunk_char_len": 796,
+        "total_chunks_on_page": 4,
+        "text": "1. Introduction When the father of one of the authors was diagnosed with cancer, they went to speak with his oncologist. The oncologist described the state of his cancer and went through strategies and options for treatment. The oncologist answered the father’s questions and explained his role in his treatment. The author’s father felt he was a partner and had some control. The father trusted the treatment because he received a meaningful and understandable explana- tion about the process. The doctor’s bedside manner won over the father. The medical arts have changed, and possessing a good bedside manner has become de rigueur. When arti- ficial intelligence (AI) systems contribute to a diagnosis, they could support good bedside manners by explaining their recommendations to physicians.",
+        "manual_score_0_to_2": null,
+        "manual_reason": ""
+      },
+      "C": {
+        "chunk_id": "nist-ir-8312:p008:para:000",
+        "chunk_char_len": 796,
+        "total_chunks_on_page": 4,
+        "text": "1. Introduction When the father of one of the authors was diagnosed with cancer, they went to speak with his oncologist. The oncologist described the state of his cancer and went through strategies and options for treatment. The oncologist answered the father’s questions and explained his role in his treatment. The author’s father felt he was a partner and had some control. The father trusted the treatment because he received a meaningful and understandable explana- tion about the process. The doctor’s bedside manner won over the father. The medical arts have changed, and possessing a good bedside manner has become de rigueur. When arti- ficial intelligence (AI) systems contribute to a diagnosis, they could support good bedside manners by explaining their recommendations to physicians.",
+        "manual_score_0_to_2": null,
+        "manual_reason": ""
+      }
+    }
+  },
+  {
+    "sample_id": "coh_02",
+    "document_id": "nist-ir-8312",
+    "page": 9,
+    "strategies": {
+      "A": {
+        "chunk_id": "nist-ir-8312:p009:fixed:000",
+        "chunk_char_len": 500,
+        "total_chunks_on_page": 8,
+        "text": "is essential for the field to make progress toward concrete definitions by which explana- tion quality can be measured. They serve as a guide for future research directions for the field. The four principles support the foundation of explainable AI measurement, policy considerations, safety, acceptance by society, and other aspects of AI technology. We present and discuss the principles in Section 2. We adopt an expansive view of explanations and characterize the space in Section 3. We outline r",
+        "manual_score_0_to_2": null,
+        "manual_reason": ""
+      },
+      "B": {
+        "chunk_id": "nist-ir-8312:p009:para:000",
+        "chunk_char_len": 1127,
+        "total_chunks_on_page": 4,
+        "text": "is essential for the field to make progress toward concrete definitions by which explana- tion quality can be measured. They serve as a guide for future research directions for the field. The four principles support the foundation of explainable AI measurement, policy considerations, safety, acceptance by society, and other aspects of AI technology. We present and discuss the principles in Section 2. We adopt an expansive view of explanations and characterize the space in Section 3. We outline risks introduced by ex- plainable AI – especially those introduced if the principles are not met (Section 4). To put current work into context, we provide a review of current explainable AI methods and evaluation metrics, and other existing principles for explainable AI (Sections 5, 6, and 7). Finally, we review existing literature to assess the extent to which humans meet the same principles we introduce for AI (Section 8). Performance expectations can vary for humans and machines. Although in some contexts, these differing expectations may or may not be appropriate, a baseline on which they could be compared is needed.",
+        "manual_score_0_to_2": null,
+        "manual_reason": ""
+      },
+      "C": {
+        "chunk_id": "nist-ir-8312:p009:para:000",
+        "chunk_char_len": 1127,
+        "total_chunks_on_page": 4,
+        "text": "is essential for the field to make progress toward concrete definitions by which explana- tion quality can be measured. They serve as a guide for future research directions for the field. The four principles support the foundation of explainable AI measurement, policy considerations, safety, acceptance by society, and other aspects of AI technology. We present and discuss the principles in Section 2. We adopt an expansive view of explanations and characterize the space in Section 3. We outline risks introduced by ex- plainable AI – especially those introduced if the principles are not met (Section 4). To put current work into context, we provide a review of current explainable AI methods and evaluation metrics, and other existing principles for explainable AI (Sections 5, 6, and 7). Finally, we review existing literature to assess the extent to which humans meet the same principles we introduce for AI (Section 8). Performance expectations can vary for humans and machines. Although in some contexts, these differing expectations may or may not be appropriate, a baseline on which they could be compared is needed.",
+        "manual_score_0_to_2": null,
+        "manual_reason": ""
+      }
+    }
+  },
+  {
+    "sample_id": "coh_03",
+    "document_id": "nist-ir-8312",
+    "page": 10,
+    "strategies": {
+      "A": {
+        "chunk_id": "nist-ir-8312:p010:fixed:000",
+        "chunk_char_len": 500,
+        "total_chunks_on_page": 5,
+        "text": "Meaningful: A system provides explanations that are understandable to the intended con- sumer(s). Explanation Accuracy: An explanation correctly reflects the reason for generating the output and/or accurately reflects the system’s process. Knowledge Limits: A system only operates under conditions for which it was designed and when it reaches sufficient confidence in its output. These are defined and put into context in more detail below. Figure 1 shows the prin- ciples and indicates that for a s",
+        "manual_score_0_to_2": null,
+        "manual_reason": ""
+      },
+      "B": {
+        "chunk_id": "nist-ir-8312:p010:para:000",
+        "chunk_char_len": 883,
+        "total_chunks_on_page": 2,
+        "text": "Meaningful: A system provides explanations that are understandable to the intended con- sumer(s).\n\nExplanation Accuracy: An explanation correctly reflects the reason for generating the output and/or accurately reflects the system’s process.\n\nKnowledge Limits: A system only operates under conditions for which it was designed and when it reaches sufficient confidence in its output.\n\nThese are defined and put into context in more detail below. Figure 1 shows the prin- ciples and indicates that for a system to be considered explainable, it must first have an explanation or contain accompanying evidence which can be accessed.\n\nFig. 1. Illustration of the four principles of explainable artificial intelligence. Arrows indicate that for a system to be explainable, it must provide an explanation. The remaining three principles are the fundamental properties of those explanations.",
+        "manual_score_0_to_2": null,
+        "manual_reason": ""
+      },
+      "C": {
+        "chunk_id": "nist-ir-8312:p010:para:000",
+        "chunk_char_len": 883,
+        "total_chunks_on_page": 2,
+        "text": "Meaningful: A system provides explanations that are understandable to the intended con- sumer(s).\n\nExplanation Accuracy: An explanation correctly reflects the reason for generating the output and/or accurately reflects the system’s process.\n\nKnowledge Limits: A system only operates under conditions for which it was designed and when it reaches sufficient confidence in its output.\n\nThese are defined and put into context in more detail below. Figure 1 shows the prin- ciples and indicates that for a system to be considered explainable, it must first have an explanation or contain accompanying evidence which can be accessed.\n\nFig. 1. Illustration of the four principles of explainable artificial intelligence. Arrows indicate that for a system to be explainable, it must provide an explanation. The remaining three principles are the fundamental properties of those explanations.",
+        "manual_score_0_to_2": null,
+        "manual_reason": ""
+      }
+    }
+  },
+  {
+    "sample_id": "coh_04",
+    "document_id": "nist-ir-8312",
+    "page": 11,
+    "strategies": {
+      "A": {
+        "chunk_id": "nist-ir-8312:p011:fixed:000",
+        "chunk_char_len": 500,
+        "total_chunks_on_page": 8,
+        "text": "meaningful [84]. For example, stating why the system did behave a certain way can be more understandable than describing why it did not behave a certain way [76]. Many fac- tors contribute to what individual people will consider a “good” explanation [55, 84, 139]. Therefore, developers need to consider the intended audience [44]. Several factors influ- ence what information people will find important, relevant, or useful. These include a person’s prior knowledge and experiences and the overall p",
+        "manual_score_0_to_2": null,
+        "manual_reason": ""
+      },
+      "B": {
+        "chunk_id": "nist-ir-8312:p011:para:000",
+        "chunk_char_len": 1176,
+        "total_chunks_on_page": 4,
+        "text": "meaningful [84]. For example, stating why the system did behave a certain way can be more understandable than describing why it did not behave a certain way [76]. Many fac- tors contribute to what individual people will consider a “good” explanation [55, 84, 139]. Therefore, developers need to consider the intended audience [44]. Several factors influ- ence what information people will find important, relevant, or useful. These include a person’s prior knowledge and experiences and the overall psychological differences be- tween people [18, 64, 90]. Moreover, what they consider meaningful will change over time as they gain experience with a task or system [18]. Different groups of people will also have different desires from a system’s explanations [13, 44, 50]. Groups may be defined broadly according to their role or relationship to the system. For example: developers of a system are likely to have different desires from an explanation compared to an end-user. In addition to its audience, what is considered meaningful will vary according to the ex- planation’s purpose. Different scenarios and needs will drive what is important and useful in a given context.",
+        "manual_score_0_to_2": null,
+        "manual_reason": ""
+      },
+      "C": {
+        "chunk_id": "nist-ir-8312:p011:para:000",
+        "chunk_char_len": 1176,
+        "total_chunks_on_page": 4,
+        "text": "meaningful [84]. For example, stating why the system did behave a certain way can be more understandable than describing why it did not behave a certain way [76]. Many fac- tors contribute to what individual people will consider a “good” explanation [55, 84, 139]. Therefore, developers need to consider the intended audience [44]. Several factors influ- ence what information people will find important, relevant, or useful. These include a person’s prior knowledge and experiences and the overall psychological differences be- tween people [18, 64, 90]. Moreover, what they consider meaningful will change over time as they gain experience with a task or system [18]. Different groups of people will also have different desires from a system’s explanations [13, 44, 50]. Groups may be defined broadly according to their role or relationship to the system. For example: developers of a system are likely to have different desires from an explanation compared to an end-user. In addition to its audience, what is considered meaningful will vary according to the ex- planation’s purpose. Different scenarios and needs will drive what is important and useful in a given context.",
+        "manual_score_0_to_2": null,
+        "manual_reason": ""
+      }
+    }
+  },
+  {
+    "sample_id": "coh_05",
+    "document_id": "nist-sp-1270",
+    "page": 10,
+    "strategies": {
+      "A": {
+        "chunk_id": "nist-sp-1270:p010:fixed:000",
+        "chunk_char_len": 500,
+        "total_chunks_on_page": 7,
+        "text": "1. Purpose and Scope In August 2019, fulfilling an assignment in an Executive Order on AI, 5 NIST released “A Plan for Federal Engagement in Developing Technical Standards and Related Tools” [1]. Based on broad public and private sector input, this plan recommended a deeper, more consistent, and long-term engagement in AI standards “to help the United States to speed the pace of reliable, robust, and trustworthy AI technology development.” NIST research in AI continues along this path to focus o",
+        "manual_score_0_to_2": null,
+        "manual_reason": ""
+      },
+      "B": {
+        "chunk_id": "nist-sp-1270:p010:para:000",
+        "chunk_char_len": 1079,
+        "total_chunks_on_page": 4,
+        "text": "1. Purpose and Scope In August 2019, fulfilling an assignment in an Executive Order on AI, 5 NIST released “A Plan for Federal Engagement in Developing Technical Standards and Related Tools” [1]. Based on broad public and private sector input, this plan recommended a deeper, more consistent, and long-term engagement in AI standards “to help the United States to speed the pace of reliable, robust, and trustworthy AI technology development.” NIST research in AI continues along this path to focus on how to measure, evaluate, and enhance the trustworthiness of AI systems and the responsible practices for designing, developing, and deploying such systems. Working with the AI community, NIST has identified the follow- ing technical and socio-technical characteristics needed to cultivate trust in AI systems: accuracy, explainability and interpretability, privacy, reliability, robustness, safety, and se- curity resilience—and that harmful biases are mitigated or controlled. While AI has significant potential as a transformative technology, it also poses inher- ent risks.",
+        "manual_score_0_to_2": null,
+        "manual_reason": ""
+      },
+      "C": {
+        "chunk_id": "nist-sp-1270:p010:para:000",
+        "chunk_char_len": 1079,
+        "total_chunks_on_page": 4,
+        "text": "1. Purpose and Scope In August 2019, fulfilling an assignment in an Executive Order on AI, 5 NIST released “A Plan for Federal Engagement in Developing Technical Standards and Related Tools” [1]. Based on broad public and private sector input, this plan recommended a deeper, more consistent, and long-term engagement in AI standards “to help the United States to speed the pace of reliable, robust, and trustworthy AI technology development.” NIST research in AI continues along this path to focus on how to measure, evaluate, and enhance the trustworthiness of AI systems and the responsible practices for designing, developing, and deploying such systems. Working with the AI community, NIST has identified the follow- ing technical and socio-technical characteristics needed to cultivate trust in AI systems: accuracy, explainability and interpretability, privacy, reliability, robustness, safety, and se- curity resilience—and that harmful biases are mitigated or controlled. While AI has significant potential as a transformative technology, it also poses inher- ent risks.",
+        "manual_score_0_to_2": null,
+        "manual_reason": ""
+      }
+    }
+  },
+  {
+    "sample_id": "coh_06",
+    "document_id": "nist-sp-1270",
+    "page": 11,
+    "strategies": {
+      "A": {
+        "chunk_id": "nist-sp-1270:p011:fixed:000",
+        "chunk_char_len": 499,
+        "total_chunks_on_page": 3,
+        "text": "interacting with AI enabled technology [47]. However, there is a general view that there needs to be a “higher ethical standard” for AI than for other forms of technology [48]. This mainly stems from the perceptions and fears about loss of control and privacy [46, 49–51]. Bias is tightly associated with the concepts of transparency and fairness in society. For much of the public, the assumptions underlying algorithms are rarely transparent. The com- plex web of code and decisions that went into",
+        "manual_score_0_to_2": null,
+        "manual_reason": ""
+      },
+      "B": {
+        "chunk_id": "nist-sp-1270:p011:para:000",
+        "chunk_char_len": 1011,
+        "total_chunks_on_page": 2,
+        "text": "interacting with AI enabled technology [47]. However, there is a general view that there needs to be a “higher ethical standard” for AI than for other forms of technology [48]. This mainly stems from the perceptions and fears about loss of control and privacy [46, 49–51]. Bias is tightly associated with the concepts of transparency and fairness in society. For much of the public, the assumptions underlying algorithms are rarely transparent. The com- plex web of code and decisions that went into the design, development, and deployment of AI rarely is easily accessible or understandable to non-technical audiences. Nevertheless, many people are affected by—or their data is used as inputs for—AI technologies and sys- tems without their consent, such as when they apply to college, [52] for a new apartment, [53] or search the internet. When individuals feel that they are not being fairly judged when applying for jobs [2–5, 7, 54–56] or loans [57–59] it can reduce public trust in AI technology [60, 61].",
+        "manual_score_0_to_2": null,
+        "manual_reason": ""
+      },
+      "C": {
+        "chunk_id": "nist-sp-1270:p011:para:000",
+        "chunk_char_len": 1011,
+        "total_chunks_on_page": 2,
+        "text": "interacting with AI enabled technology [47]. However, there is a general view that there needs to be a “higher ethical standard” for AI than for other forms of technology [48]. This mainly stems from the perceptions and fears about loss of control and privacy [46, 49–51]. Bias is tightly associated with the concepts of transparency and fairness in society. For much of the public, the assumptions underlying algorithms are rarely transparent. The com- plex web of code and decisions that went into the design, development, and deployment of AI rarely is easily accessible or understandable to non-technical audiences. Nevertheless, many people are affected by—or their data is used as inputs for—AI technologies and sys- tems without their consent, such as when they apply to college, [52] for a new apartment, [53] or search the internet. When individuals feel that they are not being fairly judged when applying for jobs [2–5, 7, 54–56] or loans [57–59] it can reduce public trust in AI technology [60, 61].",
+        "manual_score_0_to_2": null,
+        "manual_reason": ""
+      }
+    }
+  },
+  {
+    "sample_id": "coh_07",
+    "document_id": "nist-sp-1270",
+    "page": 12,
+    "strategies": {
+      "A": {
+        "chunk_id": "nist-sp-1270:p012:fixed:000",
+        "chunk_char_len": 500,
+        "total_chunks_on_page": 7,
+        "text": "2. AI Bias: Context and Terminology For purposes of this publication, the term Artificial Intelligence (AI) refers to a large class of software-based systems that receive signals from the environment and take actions that affect that environment by generating outputs such as content, predictions, recommenda- tions, classifications, or decisions influencing the environments they interact with, among other outputs [62]. Machine learning (ML) refers more specifically to the “field of study that giv",
+        "manual_score_0_to_2": null,
+        "manual_reason": ""
+      },
+      "B": {
+        "chunk_id": "nist-sp-1270:p012:para:000",
+        "chunk_char_len": 1004,
+        "total_chunks_on_page": 4,
+        "text": "2. AI Bias: Context and Terminology For purposes of this publication, the term Artificial Intelligence (AI) refers to a large class of software-based systems that receive signals from the environment and take actions that affect that environment by generating outputs such as content, predictions, recommenda- tions, classifications, or decisions influencing the environments they interact with, among other outputs [62]. Machine learning (ML) refers more specifically to the “field of study that gives computers the ability to learn without being explicitly programmed,” [63] or to computer programs that utilize data to learn and apply patterns or discern statistical rela- tionships. Common ML approaches include, but are not limited to, regression, random forests, support vector machines, and artificial neural networks. ML programs may or may not be used to make predictions of future events. ML programs also may be used to create input for additional ML programs. AI includes ML within its scope.",
+        "manual_score_0_to_2": null,
+        "manual_reason": ""
+      },
+      "C": {
+        "chunk_id": "nist-sp-1270:p012:para:000",
+        "chunk_char_len": 1004,
+        "total_chunks_on_page": 4,
+        "text": "2. AI Bias: Context and Terminology For purposes of this publication, the term Artificial Intelligence (AI) refers to a large class of software-based systems that receive signals from the environment and take actions that affect that environment by generating outputs such as content, predictions, recommenda- tions, classifications, or decisions influencing the environments they interact with, among other outputs [62]. Machine learning (ML) refers more specifically to the “field of study that gives computers the ability to learn without being explicitly programmed,” [63] or to computer programs that utilize data to learn and apply patterns or discern statistical rela- tionships. Common ML approaches include, but are not limited to, regression, random forests, support vector machines, and artificial neural networks. ML programs may or may not be used to make predictions of future events. ML programs also may be used to create input for additional ML programs. AI includes ML within its scope.",
+        "manual_score_0_to_2": null,
+        "manual_reason": ""
+      }
+    }
+  },
+  {
+    "sample_id": "coh_08",
+    "document_id": "nist-sp-800-218a",
+    "page": 9,
+    "strategies": {
+      "A": {
+        "chunk_id": "nist-sp-800-218a:p009:fixed:000",
+        "chunk_char_len": 500,
+        "total_chunks_on_page": 8,
+        "text": "NIST SP 800-218A Secure Software Development Practices for July 2024 Generative AI and Dual-Use Foundation Models 1 1. Introduction Section 4.1.a of Executive Order (EO) 14110, Safe, Secure, and Trustworthy Development and Use of Artificial Intelligence [1], tasked NIST with “developing a companion resource to the Secure Software Development Framework to incorporate secure development practices for generative AI and for dual-use foundation models.” This document is that companion resource. The s",
+        "manual_score_0_to_2": null,
+        "manual_reason": ""
+      },
+      "B": {
+        "chunk_id": "nist-sp-800-218a:p009:para:000",
+        "chunk_char_len": 116,
+        "total_chunks_on_page": 5,
+        "text": "NIST SP 800-218A Secure Software Development Practices for\n\nJuly 2024 Generative AI and Dual-Use Foundation Models 1",
+        "manual_score_0_to_2": null,
+        "manual_reason": ""
+      },
+      "C": {
+        "chunk_id": "nist-sp-800-218a:p009:para:000",
+        "chunk_char_len": 116,
+        "total_chunks_on_page": 5,
+        "text": "NIST SP 800-218A Secure Software Development Practices for\n\nJuly 2024 Generative AI and Dual-Use Foundation Models 1",
+        "manual_score_0_to_2": null,
+        "manual_reason": ""
+      }
+    }
+  },
+  {
+    "sample_id": "coh_09",
+    "document_id": "nist-sp-800-218a",
+    "page": 10,
+    "strategies": {
+      "A": {
+        "chunk_id": "nist-sp-800-218a:p010:fixed:000",
+        "chunk_char_len": 500,
+        "total_chunks_on_page": 6,
+        "text": "NIST SP 800-218A Secure Software Development Practices for July 2024 Generative AI and Dual-Use Foundation Models 2 Scope This Profile’s scope is AI model development, which includes data sourcing for, designing, training, fine-tuning, and evaluating AI models, as well as incorporating and integrating AI models into other software. Consistent with SSDF version 1.1 and EO 14110, practices for the deployment and operation of AI systems with AI models are out of scope. Similarly, while cybersecurit",
+        "manual_score_0_to_2": null,
+        "manual_reason": ""
+      },
+      "B": {
+        "chunk_id": "nist-sp-800-218a:p010:para:000",
+        "chunk_char_len": 1003,
+        "total_chunks_on_page": 3,
+        "text": "NIST SP 800-218A Secure Software Development Practices for\n\nJuly 2024 Generative AI and Dual-Use Foundation Models 2\n\nScope This Profile’s scope is AI model development, which includes data sourcing for, designing, training, fine-tuning, and evaluating AI models, as well as incorporating and integrating AI models into other software. Consistent with SSDF version 1.1 and EO 14110, practices for the deployment and operation of AI systems with AI models are out of scope. Similarly, while cybersecurity practices for training data and other forms of data being used for AI model development are in scope, the rest of the data governance and management life cycle is out of scope.\n\nPractices and tasks in this Profile do not distinguish between human-written and AI-generated source code, because it is assumed that all source code should be evaluated for vulnerabilities and other issues before use.\n\nSources of Expertise This document leverages and integrates numerous sources of expertise, including:",
+        "manual_score_0_to_2": null,
+        "manual_reason": ""
+      },
+      "C": {
+        "chunk_id": "nist-sp-800-218a:p010:para:000",
+        "chunk_char_len": 1003,
+        "total_chunks_on_page": 3,
+        "text": "NIST SP 800-218A Secure Software Development Practices for\n\nJuly 2024 Generative AI and Dual-Use Foundation Models 2\n\nScope This Profile’s scope is AI model development, which includes data sourcing for, designing, training, fine-tuning, and evaluating AI models, as well as incorporating and integrating AI models into other software. Consistent with SSDF version 1.1 and EO 14110, practices for the deployment and operation of AI systems with AI models are out of scope. Similarly, while cybersecurity practices for training data and other forms of data being used for AI model development are in scope, the rest of the data governance and management life cycle is out of scope.\n\nPractices and tasks in this Profile do not distinguish between human-written and AI-generated source code, because it is assumed that all source code should be evaluated for vulnerabilities and other issues before use.\n\nSources of Expertise This document leverages and integrates numerous sources of expertise, including:",
+        "manual_score_0_to_2": null,
+        "manual_reason": ""
+      }
+    }
+  },
+  {
+    "sample_id": "coh_10",
+    "document_id": "nist-sp-800-218a",
+    "page": 11,
+    "strategies": {
+      "A": {
+        "chunk_id": "nist-sp-800-218a:p011:fixed:000",
+        "chunk_char_len": 462,
+        "total_chunks_on_page": 1,
+        "text": "NIST SP 800-218A Secure Software Development Practices for July 2024 Generative AI and Dual-Use Foundation Models 3 • Section 2 provides additional background on the SSDF and explains what an SSDF Community Profile is and how it can be used. • Section 3 defines the SSDF Community Profile for AI Model Development. • The References section lists all references cited in this document. • Appendix A provides a glossary of selected terms used within this document.",
+        "manual_score_0_to_2": null,
+        "manual_reason": ""
+      },
+      "B": {
+        "chunk_id": "nist-sp-800-218a:p011:para:000",
+        "chunk_char_len": 467,
+        "total_chunks_on_page": 1,
+        "text": "NIST SP 800-218A Secure Software Development Practices for\n\nJuly 2024 Generative AI and Dual-Use Foundation Models 3\n\n• Section 2 provides additional background on the SSDF and explains what an SSDF Community Profile is and how it can be used.\n\n• Section 3 defines the SSDF Community Profile for AI Model Development.\n\n• The References section lists all references cited in this document.\n\n• Appendix A provides a glossary of selected terms used within this document.",
+        "manual_score_0_to_2": null,
+        "manual_reason": ""
+      },
+      "C": {
+        "chunk_id": "nist-sp-800-218a:p011:para:000",
+        "chunk_char_len": 467,
+        "total_chunks_on_page": 1,
+        "text": "NIST SP 800-218A Secure Software Development Practices for\n\nJuly 2024 Generative AI and Dual-Use Foundation Models 3\n\n• Section 2 provides additional background on the SSDF and explains what an SSDF Community Profile is and how it can be used.\n\n• Section 3 defines the SSDF Community Profile for AI Model Development.\n\n• The References section lists all references cited in this document.\n\n• Appendix A provides a glossary of selected terms used within this document.",
+        "manual_score_0_to_2": null,
+        "manual_reason": ""
+      }
+    }
+  }
+]
