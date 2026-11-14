@@ -45,3 +45,23 @@ Dùng cùng dữ liệu, model và câu hỏi cho cả ba cấu hình. Tách **1
 | Cách nộp bài | [SUBMISSION.md](SUBMISSION.md) |
 
 [data/format-example.json](data/format-example.json) chỉ minh họa định dạng, không phải corpus đủ điều kiện. Phần xử lý và benchmark do bạn tự hiện thực; không bắt buộc xây chatbot.
+
+## 4. Hồ sơ bài nộp & Hướng dẫn chạy tái lập (2A202604027 — Lê Phạm Thành Đạt)
+
+- **Thông tin học viên:** [STUDENT.md](STUDENT.md) — **Họ tên:** Lê Phạm Thành Đạt — **MSSV:** `2A202604027` — **Lớp:** `L3B`
+- **Corpus & Manifest:** [data/manifest.json](data/manifest.json) (3 PDF Public Domain NIST tại `starter/data/`: `NIST.IR.8312.pdf`, `NIST.SP.1270.pdf`, `NIST.SP.800-218A.pdf` — 159 trang vật lý / **89 trang nội dung hợp lệ** / 255.447 ký tự chuẩn hóa)
+- **Benchmark (24 câu hỏi, 18 dev / 6 test, 7 metadata filter):** [benchmark/questions.json](benchmark/questions.json)
+- **Pipeline source (`starter/src/`):** `ingestion.py`, `chunking.py`, `embeddings.py` (`gemini-embedding-001`, 768 chiều), `store.py` (PostgreSQL 16.16 + `pgvector 0.8.7`), `evaluation.py`, `run.py`
+- **Nhật ký & Kết quả:** [artifacts/experiment_log.csv](artifacts/experiment_log.csv), thư mục [results/](results/) (đồng bộ cùng `starter/results/`)
+- **Báo cáo cá nhân & Tổng hợp trực quan HTML:** [report/individual/2A202604027_LePhamThanhDat.md](report/individual/2A202604027_LePhamThanhDat.md), [index.html](index.html) / [report/day06_lab_report.html](report/day06_lab_report.html)
+
+### Lệnh chạy tái lập (Windows PowerShell, từ `starter/`)
+
+```powershell
+cd starter
+docker compose -p day6_student_starter up -d --wait
+.\.venv\Scripts\python.exe scripts\check_setup.py
+.\.venv\Scripts\python.exe -m src.run
+```
+
+> Lưu ý: Tạo `starter/.env` từ [starter/.env.example](starter/.env.example) và điền `GEMINI_API_KEY` (không commit `.env`, `.venv/` hoặc `.embedding_cache.json`).
